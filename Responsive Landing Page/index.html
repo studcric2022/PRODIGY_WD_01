@@ -1,0 +1,109 @@
+// Main Landing Page 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste Boulevard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="shortcut icon" href="images/website-logo.jpeg" type="image/x-icon">
+</head>
+<body class="overflow-x-hidden">
+    <div class="container mx-auto">
+        <!-- Header part -->
+        <header>
+            <nav class="flex justify-between">
+               <div class="logo flex items-center font-bold text-color">Taste Boulevard</div>
+               <ul class="navbar flex items-center">
+                 <li>Home</li>
+                 <li>About</li>
+                 <li><a href="reviews.html" style="text-decoration: none;color: black;">Reviews</a></li>
+                 <li><button class="btn">Book Seats</button></li>
+                 <li><button class="btn">Download Menu</button></li>
+               </ul>
+            </nav>
+            <hr>
+        </header>
+        <!-- Main section -->
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex items-center">
+                    <div class="topleft flex justify-center flex-col px-1">
+                        <img src="images/welcome.png" alt="">
+                        <h2 class="my-1">To The Best Restaurant is here in the town</h2>
+                        <p>Join us at Taste Boulevard and discover the perfect blend of exquisite cuisine, exceptional service, and a welcoming ambiance. We look forward to serving you and making every visit a delightful and unforgettable occasion.</p>
+                    </div>
+                    <div class="topright">
+                        <!-- <img src="images/restaurant-pic.avif" alt=""> -->
+                         <img src="images/chef.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h2 class="text-center my-2">Popular Dishes - Special Order</h2>
+                <div class="boxes flex">
+                    <div class="box">
+                        <h3 class="text-center">Chicken Biryani</h3>
+                        <ul>
+                            <li class="text-center"><img src="images/chicken biryani.jpeg" alt=""></li>
+                            <li class="text-center">Full Plate(4 pieces + 1 egg) - ₹199</li>
+                            <li class="text-center">Half Plate(2 pieces + 1 egg) - ₹99</li>
+                            <li class="text-center"><button class="btn1">Order Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h3 class="text-center">Mutton Curry</h3>
+                        <ul>
+                            <li class="text-center"><img src="images/mutton curry.jpeg" alt=""></li>
+                            <li class="text-center">Full Plate(8 pieces) - ₹299</li>
+                            <li class="text-center">Half Plate(4 pieces) - ₹149</li>
+                            <li class="text-center"><button class="btn1">Order Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h3 class="text-center">Paneer Butter Masala</h3>
+                        <ul>
+                            <li class="text-center"><img src="images/paneer butter masala.webp" alt=""></li>
+                            <li class="text-center">Full Plate - ₹149</li>
+                            <li class="text-center">Half Plate - ₹75</li>
+                            <li class="text-center"><button class="btn1">Order Now</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="text-center my-1">Order Foods for the family or for party, <a href="">Click here</a> to know more</p>
+            </section>
+            <hr>
+            <section class="section3">
+                <h2 class="text-center my-2">Special Offers and Events</h2>
+                <div class="content flex">
+                    <div class="box1">
+                        <h3 class="text-center">Current Specials</h3>
+                        <ul>
+                            <li class="text-center"><p>"Happy Hour: 4-7 PM daily - 50% off selected appetizers and drinks"</p></li>
+                            <li class="text-center"><p>Weekend Brunch: Saturday and Sunday, 10 AM - 3 PM"</p></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="box1">
+                        <h3 class="text-center">Upcoming Events</h3>
+                        <ul>
+                            <li class="text-center"><p>"Live Jazz Night: Every Friday at 8 PM"</p></li>
+                            <li class="text-center"><p>"Wine Tasting Event: July 25th, 7 PM"</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="deal text-center">The events ends in <span id="demo"></span></p>
+                <p class="text-center my-1">To know more about the upcoming events, <a href="">Click here</a></p>
+            </section>
+            <hr>
+        </main>
+        <!-- Footer part -->
+        <footer>
+            Copyright &copy; TasteBoulevard.com | All Rights Reserved
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
